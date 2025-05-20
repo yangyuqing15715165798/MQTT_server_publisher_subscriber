@@ -170,13 +170,16 @@ MQTT通信需要三个组件：
      打开cmd:
      通过服务管理器启动mosquitto指令为：
      net start mosquitto
-     ![38fccc553f2cae1a1bafa76673b01bf9](https://github.com/user-attachments/assets/4287607a-7e07-4094-af7c-7ca6df493a0c)
+     
 
      通过服务管理器停止mosquitto指令为：
      net stop mosquitto
-     ![1747730214715_D484391A-F32C-4f76-863D-00C519DD065D](https://github.com/user-attachments/assets/b1a1695f-26af-4270-9fdf-877a15401862)
+     
 
      ```
+     ![38fccc553f2cae1a1bafa76673b01bf9](https://github.com/user-attachments/assets/4287607a-7e07-4094-af7c-7ca6df493a0c)
+     ![1747730214715_D484391A-F32C-4f76-863D-00C519DD065D](https://github.com/user-attachments/assets/b1a1695f-26af-4270-9fdf-877a15401862)
+     
    - Linux/Mac: 
      ```bash
      ps aux | grep mqtt
