@@ -7,6 +7,8 @@ from paho.mqtt import client as mqtt_client
 
 # MQTT配置
 broker = 'localhost'
+# 第三方提供的公共MQTT Broke
+# broker = "broker.hivemq.com"
 port = 1883
 topic = "realtime_waveform"
 client_id = f'waveform-publisher-{random.randint(0, 1000)}'

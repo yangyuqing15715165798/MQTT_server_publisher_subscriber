@@ -21,6 +21,9 @@ plt.rcParams['axes.unicode_minus'] = False
 
 # MQTT配置
 broker = 'localhost'
+
+# 第三方提供的公共MQTT Broker
+# broker = "broker.hivemq.com"
 port = 1883
 topic = "realtime_waveform"
 client_id = f'waveform-gui-{random.randint(0, 1000)}'
